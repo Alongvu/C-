@@ -1,0 +1,16 @@
+Input     10             2                   Output      12        8    20                  5.00
+          1000 000       10000000                        2000000   0    100000000000000     1.00
+
+#include <iostream>
+#include <iomanop>
+using namespace std ;
+int main(){
+  int a , b ;
+  cin >> a >> b ;
+  int tong = a + b ;
+  int hieu = a - b ;
+  long long tich = (long long)a * b ; //1ll * a * b ;
+  float thuong = float a / b ; //1.0 * a * b ;
+  cout << tong " " << hieu << " " << tich << " " << fixed << setprecition(2) << thuong << endl;
+  return 0;
+}
